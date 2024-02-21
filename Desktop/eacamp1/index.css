@@ -1,0 +1,92 @@
+body>div:first-child {
+    background-color: antiquewhite;
+    width: 1500px;
+    height: 120px;
+    border: 1px solid salmon;
+}
+
+div:first-child>a {
+    text-decoration: none;
+}
+
+div:first-child>a:first-child {
+    color: #9195F6;
+    font-size: 30px;
+    display: block;
+    padding: 20px 30px 5px 30px;
+    font-weight: 700;
+}
+
+div:first-child>a:nth-child(2) {
+    color: #FB88B4;
+    font-size: 24px;
+    padding: 0 30px;
+    font-weight:400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+div:first-child>a:last-child{
+    font-size: 40px;
+    font-weight: 700;
+    color: #A3C9AA;
+}
+body>div:nth-child(2){
+    background-color: antiquewhite;
+/* border: 1px solid rosybrown; */
+width: 1500px;
+height: 420px;
+margin-top: 35px;
+}
+body>div:nth-child(2)>p{
+    color: peru;
+    font-size: 25px;
+    padding: 50px 25px 10px 30px;
+}
+body>div:nth-child(2)>div:nth-child(2){
+    width: 1400px;
+    height: 60px;
+    border: 1px solid peru;
+    background-color: rgb(62, 30, 6);
+   padding: 20px;
+   margin-left: 30px;
+   border-radius: 5px;
+}
+body>div:nth-child(2)>div:nth-child(2)>span{
+    color: #ff6e84;
+}
+body>div:nth-child(2)>div:last-child{
+    width: 1400px;
+    height: 60px;
+    border: 1px solid peru;
+    background-color: rgb(233, 37, 37);
+   padding: 20px;
+   margin-left: 30px;
+   border-radius: 5px; 
+   margin-top: 25px;
+}
+body>div:nth-child(2)>div:last-child>span{
+    color: white;
+    font-size: 24px;
+}
+body div:nth-child(3){
+    width: 1440px;
+    height: 150px;
+    background-color: rgb(60, 19, 123);
+    margin-top: 30px;
+    padding: 30px;
+}
+body div:nth-child(3) div{
+    width: 450px;
+    height: 50px;
+    background-color: rgb(189, 51, 51);
+    margin: auto;
+    padding-top: 22px;
+    margin-top: 40px;
+}
+body>div:nth-child(3)>div>span{
+  font-size: 17px;
+  padding-left: 45px;
+}
+body>div:nth-child(3)>div>span:last-child{
+font-size: 25px;
+color: orange;
+}
